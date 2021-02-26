@@ -9,6 +9,8 @@ jobs:
   build-deploy:
     runs-on: ubuntu-18.04
     env:
+      BASE_URL: ${{secrets.BASE_URL}}
+      MY_SITE_ID: ${{secrets.MY_SITE_ID}}
       MY_SITE_NAME: CMS Sample3
     steps:
     - uses: actions/checkout@v2
