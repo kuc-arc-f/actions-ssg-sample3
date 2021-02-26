@@ -9,7 +9,7 @@ jobs:
   build-deploy:
     runs-on: ubuntu-18.04
     env:
-      MY_SITE_NAME: "CMS Sample3",
+      MY_SITE_NAME: CMS Sample3
     steps:
     - uses: actions/checkout@v2
 
