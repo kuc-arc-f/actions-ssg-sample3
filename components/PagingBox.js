@@ -10,10 +10,11 @@ export default function Page(props){
     { paginateDisp ? (
     <div className="paginate_wrap">
       <div className="btn-group" role="group" aria-label="Basic example">
-        <Link href="/page/1"><a className="btn btn-lg btn-outline-primary">
+        <Link href={`${process.env.MY_BASE_PATH}/page/1`}>
+          <a className="btn btn-lg btn-outline-primary">
           1st</a></Link>
-          <Link href={`/page/${nextPage}`}><a className="btn btn-lg btn-outline-primary">
-          > </a></Link>
+          <Link href={`${process.env.MY_BASE_PATH}/page/${nextPage}`}>
+          <a className="btn btn-lg btn-outline-primary"> > </a></Link>
       </div>
     </div>
     ):"" 

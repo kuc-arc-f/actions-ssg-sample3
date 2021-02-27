@@ -8,6 +8,8 @@ export default function Home() {
       <hr />
       <h1>About</h1>
       <p>This is about page.</p>
+      <hr />
+      commit : 0226a7
     </div>
   </Layout>
   )
