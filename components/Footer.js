@@ -4,7 +4,7 @@ import Head from 'next/head';
 export default function(){
   return (
   <div className ="footer_box mt5" id="id_foot" >
-    <Link href="/about" >
+    <Link href={`${process.env.MY_BASE_PATH}/about`} >
       <a><p className="p_foot_str">About</p>
       </a>
     </Link>

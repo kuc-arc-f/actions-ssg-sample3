@@ -14,7 +14,7 @@ export default function Page({ blog }) {
     <Layout>
     <Head><title key="title">{blog.title}</title></Head>            
     <div className="container">
-      <Link href="/" >
+      <Link href={`${process.env.MY_BASE_PATH}/`} >
         <a className="btn btn-outline-primary mt-2">Back</a>
       </Link>
       <hr className="mt-2 mb-2" />
