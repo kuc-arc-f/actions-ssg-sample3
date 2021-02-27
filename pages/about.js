@@ -9,7 +9,7 @@ export default function Home() {
       <h1>About</h1>
       <p>This is about page.</p>
       <hr />
-      commit : 0227a5
+      commit : 0227a6
     </div>
   </Layout>
   )
